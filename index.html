@@ -2,7 +2,7 @@
 <script src="socket.io.client.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script>
-	var socket = io.connect('http://localhost:8080');
+	var socket = io.connect('http://ec2-54-213-217-144.us-west-2.compute.amazonaws.com:8080');
 
 	// on connection to server, ask for user's name with an anonymous callback
 	socket.on('connect', function(){
